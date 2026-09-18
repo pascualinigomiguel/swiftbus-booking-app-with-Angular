@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">SwiftBus — Move with confidence</title>
+  <desc id="desc">A modern poster for the SwiftBus Angular bus reservation application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061c3b"/><stop offset=".55" stop-color="#0b5b83"/><stop offset="1" stop-color="#12a6a0"/></linearGradient>
+    <linearGradient id="bus" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5fbff"/><stop offset="1" stop-color="#b8e7ef"/></linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffd166"/><stop offset="1" stop-color="#ff9f43"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#fff1a8" stop-opacity=".9"/><stop offset="1" stop-color="#79e9e1" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#021327" flood-opacity=".5"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+    <pattern id="grain" width="84" height="84" patternUnits="userSpaceOnUse"><circle cx="18" cy="22" r="1" fill="#fff" opacity=".12"/><circle cx="61" cy="63" r=".8" fill="#fff" opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <circle cx="970" cy="270" r="280" fill="url(#sun)" filter="url(#blur)"/>
+  <circle cx="970" cy="270" r="110" fill="#ffe797" opacity=".24"/>
+  <path d="M0 1120c170-190 345-215 525-95 205 136 358 120 675-130v705H0z" fill="#041d42" opacity=".68"/>
+  <path d="M0 1310c230-155 398-126 590-26 205 106 365 70 610-82v398H0z" fill="#02152f" opacity=".72"/>
+  <g fill="#d9ffff" opacity=".75"><circle cx="118" cy="254" r="3"/><circle cx="250" cy="400" r="2"/><circle cx="1070" cy="495" r="3"/><circle cx="160" cy="705" r="2"/></g>
+
+  <!-- route line -->
+  <path d="M90 1040C245 950 300 1085 460 1000s220-220 380-145 170 135 270 55" fill="none" stroke="#62e6df" stroke-width="5" stroke-dasharray="14 18" opacity=".65"/>
+  <g fill="#ffd166" stroke="#062342" stroke-width="8"><circle cx="90" cy="1040" r="18"/><circle cx="460" cy="1000" r="18"/><circle cx="840" cy="855" r="18"/><circle cx="1110" cy="910" r="18"/></g>
+
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+    <text x="600" y="190" fill="#d9ffff" font-size="27" letter-spacing="12" font-weight="700">YOUR JOURNEY STARTS HERE</text>
+    <text x="600" y="380" fill="#ffffff" font-size="146" letter-spacing="4" font-weight="900" filter="url(#shadow)">SWIFT</text>
+    <text x="600" y="510" fill="url(#amber)" font-size="132" letter-spacing="12" font-weight="300">BUS</text>
+    <path d="M350 555h500" stroke="#7df0e8" stroke-width="3" opacity=".85"/>
+    <text x="600" y="620" fill="#e1ffff" font-size="31" letter-spacing="6">BOOK · RIDE · ARRIVE</text>
+  </g>
+
+  <!-- bus illustration -->
+  <g transform="translate(600 850)" filter="url(#shadow)">
+    <path d="M-330 180v-265c0-90 75-145 173-145h315c98 0 172 55 172 145v265h-660z" fill="url(#bus)" stroke="#d8fbff" stroke-width="8"/>
+    <path d="M-314 -75h630v170h-630z" fill="#0a416b"/>
+    <path d="M-283 -44h135v105h-135zM-118 -44H17v105h-135zM48 -44h135v105H48zM214 -44h70v105h-70z" fill="#8de3e8" opacity=".9"/>
+    <path d="M-325 102h650v78h-650z" fill="url(#amber)"/>
+    <text x="0" y="158" fill="#07294d" font-size="38" font-weight="900" letter-spacing="8">SWIFTBUS</text>
+    <circle cx="-220" cy="205" r="68" fill="#062342" stroke="#d8fbff" stroke-width="10"/><circle cx="220" cy="205" r="68" fill="#062342" stroke="#d8fbff" stroke-width="10"/>
+    <circle cx="-220" cy="205" r="25" fill="#7bdde0"/><circle cx="220" cy="205" r="25" fill="#7bdde0"/>
+    <path d="M-365 -108h35v-73h36v73M294 -108h35v-73h36v73" stroke="#d8fbff" stroke-width="9" fill="none"/>
+  </g>
+
+  <!-- feature cards -->
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="150" y="1120" width="900" height="170" rx="32" fill="#ffffff" fill-opacity=".12" stroke="#b8ffff" stroke-opacity=".38" stroke-width="2"/>
+    <g fill="#fff"><circle cx="290" cy="1175" r="31" fill="#ffd166"/><text x="290" y="1185" fill="#12365a" font-size="28" font-weight="900">⌕</text><text x="290" y="1243" fill="#e8ffff" font-size="21" font-weight="700">ROUTE SEARCH</text><circle cx="600" cy="1175" r="31" fill="#ffd166"/><text x="600" y="1185" fill="#12365a" font-size="25" font-weight="900">✓</text><text x="600" y="1243" fill="#e8ffff" font-size="21" font-weight="700">SEAT SELECTION</text><circle cx="910" cy="1175" r="31" fill="#ffd166"/><text x="910" y="1185" fill="#12365a" font-size="25" font-weight="900">●</text><text x="910" y="1243" fill="#e8ffff" font-size="21" font-weight="700">LIVE AVAILABILITY</text></g>
+    <text x="600" y="1370" fill="#ffffff" font-size="39" font-weight="700">MAKE EVERY MILE COUNT.</text>
+    <rect x="330" y="1420" width="540" height="76" rx="38" fill="#e0ffff"/>
+    <text x="600" y="1469" fill="#07385e" font-size="24" letter-spacing="3" font-weight="700">ANGULAR · VITE · BOOTSTRAP 5</text>
+    <text x="600" y="1545" fill="#c9ffff" font-size="18" letter-spacing="5" opacity=".88">TRAVEL SMARTER. ARRIVE HAPPIER.</text>
+  </g>
+  <rect width="1200" height="1600" fill="url(#grain)" opacity=".4"/>
+  <rect x="27" y="27" width="1146" height="1546" rx="8" fill="none" stroke="#bffffc" stroke-width="2" opacity=".65"/>
+</svg>
